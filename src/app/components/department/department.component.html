@@ -1,0 +1,14 @@
+<p>department works!</p>
+<table border="1">
+    <thead>
+        <td colspan="3" style="text-align: center; font-weight: bold;">Departments</td>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let d of getDepartments()">
+        <td>{{d.did}}</td>
+        <td>{{d.dname}}</td>
+    </tr>
+</table>

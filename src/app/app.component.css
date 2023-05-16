@@ -1,0 +1,13 @@
+.button{
+    background-color: blueviolet;
+    color: yellow;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-active{
+    background-color: aqua;
+    color:blueviolet
+}

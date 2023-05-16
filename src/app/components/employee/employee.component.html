@@ -1,0 +1,16 @@
+<p>employee works!</p>
+<table border="1">
+    <thead>
+        <td colspan="3" style="text-align: center; font-weight: bold;">Employees</td>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let e of getEmployees()">
+        <td>{{e.eid}}</td>
+        <td>{{e.ename}}</td>
+        <td>{{e.dept}}</td>
+    </tr>
+</table>
